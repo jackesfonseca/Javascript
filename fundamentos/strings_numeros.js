@@ -18,3 +18,7 @@ console.log(palavra3.indexOf('a'))//exibe o índice do valor informado (numero/c
 console.log(palavra1.substring(2))//exibe o substring a parti do índice informado
 console.log("estou a " .concat(palavra3) .concat(" da ").concat(palavra1).concat('!'))//concatenar um valor literal (não armazenado em variável/constante)
 
+console.log(palavra2.replace(2, 'e'))
+
+console.log('Ana,Maria,Pedro'.split(','))//gera um array
+console.log('3' + 2)//como o 3 foi declarado como uma string e o + faz sentido dentro das string este valor será concatenado
